@@ -25,7 +25,7 @@ const FormContainer = styled("form")({
   boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
   backgroundColor: "#fff",
   "& > *": {
-    margin: "0.6rem",
+    margin: "0.5rem !important", // !important is a temprory fix 
   },
   animation: "fadeIn 0.5s ease-in",
   "@keyframes fadeIn": {
@@ -39,6 +39,7 @@ const FormContainer = styled("form")({
     },
   },
 });
+
 
 interface ContractorFormProps {
   initialValues: Contractor;
