@@ -83,7 +83,7 @@ function ContractorList() {
                       className={
                         searchParams.get("changedContractorId") ===
                         contractor.id.toString()
-                          ? "changedContractor"
+                          ? "changed-contractor"
                           : ""
                       }
                     >
